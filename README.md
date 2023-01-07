@@ -1,2 +1,2 @@
 # bostonsinaga.github.io
-Portfolio Website
+Boston Sinaga Portfolio Website
