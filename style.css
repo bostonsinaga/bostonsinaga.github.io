@@ -176,12 +176,19 @@ header {
     align-items: center;
 }
 
-.section-projects-board-frame {
+.section-projects-board-frames {
     width: 720px;
     height: 360px;
-    border: 3px solid #56a9ff;
     border-radius: 10px;
+    border: 3px solid #56a9ff;
     box-shadow: 10px 10px #a3cfff;
+}
+
+.section-projects-board-frames img{
+    width: 586px;
+    height: 360px;
+    position: absolute;
+    border-radius: 7px;
 }
 
 .section-projects-board-left-button,
@@ -189,31 +196,49 @@ header {
     width: 40px;
     height: 40px;
     position: absolute;
-    background-color: white;
     box-shadow: 0px 0px 5px 0px rgb(63, 63, 63);
     border-radius: 20px;
+    opacity: 60%;
 }
 
 .section-projects-board-right-button {
+    background-image: url("res/right-arrow.png");
     left: 650px;
 }
 
-.section-projects-board-description {
+.section-projects-board-left-button {
+    background-image: url("res/left-arrow.png");
+}
+
+.section-projects-board-left-button:hover,
+.section-projects-board-right-button:hover {
+    opacity: 80%;
+}
+
+.section-projects-board-left-button:active,
+.section-projects-board-right-button:active {
+    opacity: 100%;
+}
+
+.section-projects-board-about {
     width: 800px;
     padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     color: rgb(63, 63, 63);
     font-size: 1.1rem;
     letter-spacing: 2px;
 }
 
-.section-projects-board-description a {
+.section-projects-board-about a {
     color: rgb(63, 63, 63);
     text-decoration: none;
     font-weight: bold;
 }
 
-.section-projects-board-description a:hover,
-.section-projects-board-description a:active {
+.section-projects-board-about a:hover,
+.section-projects-board-about a:active {
     color: #56a9ff;
 }
 
