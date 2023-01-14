@@ -54,16 +54,19 @@ header {
 .section-projects-board-frames-normal {
     width: 586px;
     height: 360px;
-    border-radius: 10px;
-    border: 3px solid #56a9ff;
     box-shadow: 9px 9px #a3cfff;
 }
 
-.section-projects-board-frames .img-normal{
+.section-projects-board-frames .img-normal {
     width: 586px;
     height: 360px;
     margin-top: -80px;
-    border-radius: 7px;
+}
+
+.section-projects-board-frames-left-button-normal,
+.section-projects-board-frames-right-button-normal {
+    width: 40px;
+    height: 40px;
 }
 
 .section-projects-board-frames-left-button-normal {

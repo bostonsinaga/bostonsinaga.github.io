@@ -274,7 +274,6 @@ let isSmallScreenDetected_1050 = false,
     isSmallScreenDetected_900 = false;
 
 setInterval(() => {
-    console.log(window.innerWidth);
     if (window.innerWidth <= 1050) {
         if (!isSmallScreenDetected_1050) {
             isSmallScreenDetected_1050 = true;

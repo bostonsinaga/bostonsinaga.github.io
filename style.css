@@ -191,6 +191,15 @@ header {
     background-color: white;
 }
 
+.section-projects-board-frames-normal {
+    border-radius: 10px;
+    border: 3px solid #56a9ff;
+}
+
+.section-projects-board-frames .img-normal{
+    border-radius: 7px;
+}
+
 .section-projects-board-frames-left-button,
 .section-projects-board-frames-right-button {
     box-shadow: 0px 0px 5px 0px rgb(63, 63, 63);
@@ -280,6 +289,9 @@ header {
     border-radius: 50%;
 }
 
+.section-projects-board-frames-enlarge .img-normal,
+.section-projects-board-frames-left-button-normal,
+.section-projects-board-frames-right-button-normal,
 .section-projects-board-frames-enlarge .img-enlarge,
 .section-projects-board-frames-left-button-enlarge,
 .section-projects-board-frames-right-button-enlarge {
@@ -295,7 +307,7 @@ header {
 }
 
 .section-projects-board-frames-right-button-enlarge {
-    margin-left: 34vw;
+    margin-left: 33.3vw;
 }
 
 .section-projects-board-about-enlarge {
