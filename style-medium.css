@@ -1,0 +1,84 @@
+@media only screen and (min-width: 1051px) and (max-width: 1250px) {
+
+
+/* >>> header */
+
+header {
+    grid-template-columns: auto 500px;
+}
+
+.header-about-description {
+    margin: 0 90px 0 60px;
+}
+
+.header-figure {
+    width: 500px;
+    height: 500px;
+    background-size: 100% 100%;
+}
+
+.header-figure-job_position_label {
+    top: 155px;
+    right: 65px;
+    font-size: 22px;
+    letter-spacing: 9px;
+}
+
+.header-figure-job_position_label b {
+    font-size: 33px;
+}
+
+.header-figure-job_position_label-engineer_word {
+    text-indent: 78px;
+}
+
+.header-figure-feature_label {
+    top: 357px;
+    right: 410px;
+}
+
+/* >>> section */
+
+.section-title {
+    text-indent: 60px;
+}
+
+.section-projects {
+    padding: 0 60px 0 60px;
+}
+
+.section-projects-board {
+    display: block;
+}
+
+.section-projects-board-frames-normal {
+    width: 586px;
+    height: 360px;
+    border-radius: 10px;
+    border: 3px solid #56a9ff;
+    box-shadow: 10px 10px #a3cfff;
+}
+
+.section-projects-board-frames .img-normal{
+    width: 586px;
+    height: 360px;
+    margin-top: -80px;
+    border-radius: 7px;
+}
+
+.section-projects-board-frames-left-button-normal {
+    left: 7px;
+    top: 160px;
+}
+
+.section-projects-board-frames-right-button-normal {
+    left: 540px;
+    top: 119px;
+}
+
+.section-projects-board-about {
+    margin-top: 40px;
+}
+
+
+}

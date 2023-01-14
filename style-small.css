@@ -1,0 +1,127 @@
+@media only screen and (max-width: 750px) {
+
+
+.header-figure-contact_me_button {
+    padding: 6px 12px 6px 12px;
+    font-size: 12px;
+    border: 1.5px solid #56a9ff;
+    border-radius: 8px;
+}
+
+.header-figure-feature_label {
+    top: 43vw;
+    right: 51vw;
+    font-size: 12px;
+    padding: 12px;
+    border-radius: 12px;
+}
+
+.header-figure-feature_label p1 {
+    font-size: 10px;
+}
+
+
+}
+
+@media only screen and (max-width: 1050px) {
+
+    
+/* >>> header */
+
+.header-about-title {
+    margin: 65vw auto 0 auto;
+    font-size: 32px;
+    letter-spacing: 6px;
+}
+
+.header-about-title b {
+    font-size: 42px;
+}
+
+.header-about-description {
+    padding: 1.8vw;
+    margin: 0 7vw 0 6vw;
+}
+
+.header-figure {
+    background-size: 60vw 60vw;
+    background-position: 100% 0%;
+}
+
+.header-figure-job_position_label {
+    top: 18vw;
+    left: 59.7vw;
+    font-size: 3vw;
+    letter-spacing: 1vw;
+}
+
+.header-figure-job_position_label b {
+    font-size: 4.5vw;
+}
+
+.header-figure-job_position_label-engineer_word {
+    text-indent: 10vw;
+}
+
+@media only screen and (min-width: 751px) {
+
+    .header-figure-feature_label {
+        top: 43vw;
+        right: 51vw;
+        font-size: 2vw;
+        padding: 1.5vw;
+        border-radius: 1.5vw;
+    }
+
+    .header-figure-feature_label p1 {
+        font-size: 1.6vw;
+    }
+}
+
+/* >> section */
+
+.section-title {
+    text-indent: 40px;
+}
+
+.section-projects {
+    padding: 0 40px 0 40px;
+    min-width: 521px;
+}
+
+.section-projects-board {
+    display: flex;
+    flex-direction: column;
+}
+
+.section-projects-board-frames-normal {
+    width: 521px;
+    height: 320px;
+    border-radius: 10px;
+    border: 3px solid #56a9ff;
+    box-shadow: 10px 10px #a3cfff;
+}
+
+.section-projects-board-frames .img-normal{
+    width: 521px;
+    height: 320px;
+    margin-top: -80px;
+    border-radius: 7px;
+}
+
+.section-projects-board-frames-left-button-normal {
+    left: 5px;
+    top: 150px;
+}
+
+.section-projects-board-frames-right-button-normal {
+    left: 476px;
+    top: 110px;
+}
+
+.section-projects-board-about {
+    margin-top: 40px;
+}
+
+
+}

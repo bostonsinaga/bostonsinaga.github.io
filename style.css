@@ -2,20 +2,28 @@
     margin: 0;
     padding: 0;
     font-family: sans-serif;
-
-    /* designing */
-    /* border: 1px solid black; */
 }
 
-/***********/
-/* DESKTOP */
-/***********/
+.dark-bg-off {
+    display: none;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.dark-bg-on {
+    display: block;
+    background-color: black;
+    opacity: 50%;
+    z-index: 9997;
+}
 
 /* >>> header-about */
 
 header {
     display: grid;
-    grid-template-columns: 1fr 36vw;
 }
 
 .header-about {
@@ -28,26 +36,25 @@ header {
 .header-about-title {
     display: inline-block;
     margin: 48px auto 22px auto;
-    font-size: 2.5rem;
+    font-size: 42px;
     letter-spacing: 8px;
 }
 
 .header-about-title b {
-    font-size: 3rem;
+    font-size: 52px;
     text-decoration: underline;
 }
 
 .header-about-description {
     padding: 20px;
-    width: 700px;
     display: flex;
     gap: 10px;
     flex-direction: column;
     align-items: center;
     letter-spacing: 2px;
     color: rgb(63, 63, 63);
-    border: 3px solid #56a9ff;
     border-radius: 10px;
+    border: 3px solid #56a9ff;
     box-shadow: 10px 10px #a3cfff;
 }
 
@@ -64,10 +71,10 @@ header {
 
 .header-about-hire_me_button {
     display: block;
-    width: 81px;
-    padding: 8px 10px 8px 10px;
+    width: 100px;
+    padding: 10px 5px 10px 10px;
     font-weight: bold;
-    letter-spacing: 2px;
+    letter-spacing: 4px;
     color: #56a9ff;
     border: 2px solid #56a9ff;
     border-radius: 10px;
@@ -85,15 +92,15 @@ header {
 
 .header-about-skills_labels {
     display: flex;
-    gap: 20px;
+    gap: 24px;
     justify-content: center;
 }
 
 .header-about-skills_labels p {
-    padding: 8px;
-    border-radius: 6px;
-    font-weight: bold;
-    letter-spacing: 2px;
+    padding: 12px;
+    border-radius: 9px;
+    font-size: 18px;
+    letter-spacing: 3px;
     color: white;    
 }
 
@@ -110,16 +117,22 @@ header {
 .header-figure {
     background-image: url("res/photo.png");
     background-position: center;
-    background-size: 36vw 36vw;
-    height: 36vw;
-    width: 36vw;
+    background-repeat: no-repeat;
+}
+
+.header-figure-job_position_label {
+    display: inline-block;
+    position: absolute;
+    color: white;
+}
+
+.header-figure-job_position_label b {
+    font-weight: normal;
 }
 
 .header-figure-feature_label {
     display: inline-block;
     position: absolute;
-    top: 50%;
-    right: 32%;
     background-color: black;
     padding: 16px;
     border-radius: 16px;
@@ -130,16 +143,16 @@ header {
 }
 
 .header-figure-feature_label p1 {
-    font-size: 0.8rem;
     color: white;
+    font-size: 13px;
 }
 
 .header-figure-contact_me_button {
     padding: 8px 16px 8px 16px;
     display: inline-block;
     position: absolute;
-    right: 1%;
-    top: 2%;
+    right: 1vw;
+    top: 1vw;
     font-weight: bold;
     color: #56a9ff;
     background-color: white;
@@ -160,74 +173,65 @@ header {
 
 .section-title {
     display: block;
-    margin-top: 20px;
-    font-size: 2rem;
-    text-indent: 100px;
+    margin-top: 200px;
+    font-size: 36px;
 }
 
-.section-projects {
-    padding: 0 100px 0 100px;
-}
+/* >>> section-projects */
 
 .section-projects-board {
-    height: 420px;
-    display: flex;
-    gap: 20px;
-    align-items: center;
+    margin-top: 100px;
 }
 
 .section-projects-board-frames {
-    width: 720px;
-    height: 360px;
-    border-radius: 10px;
-    border: 3px solid #56a9ff;
-    box-shadow: 10px 10px #a3cfff;
+    display: block;
 }
 
 .section-projects-board-frames img{
-    width: 586px;
-    height: 360px;
     position: absolute;
-    border-radius: 7px;
+    background-color: white;
 }
 
-.section-projects-board-left-button,
-.section-projects-board-right-button {
-    width: 40px;
-    height: 40px;
-    position: absolute;
+.section-projects-board-frames-left-button,
+.section-projects-board-frames-right-button {
     box-shadow: 0px 0px 5px 0px rgb(63, 63, 63);
     border-radius: 20px;
     opacity: 60%;
+    background-repeat: no-repeat;
+    z-index: 999;
 }
 
-.section-projects-board-right-button {
-    background-image: url("res/right-arrow.png");
-    left: 650px;
-}
-
-.section-projects-board-left-button {
+.section-projects-board-frames-left-button {
     background-image: url("res/left-arrow.png");
 }
 
-.section-projects-board-left-button:hover,
-.section-projects-board-right-button:hover {
+.section-projects-board-frames-right-button {
+    background-image: url("res/right-arrow.png");
+}
+
+.section-projects-board-frames-left-button:hover,
+.section-projects-board-frames-right-button:hover {
     opacity: 80%;
 }
 
-.section-projects-board-left-button:active,
-.section-projects-board-right-button:active {
+.section-projects-board-frames-left-button:active,
+.section-projects-board-frames-right-button:active {
     opacity: 100%;
 }
 
+.section-projects-board-frames-left-button-normal,
+.section-projects-board-frames-right-button-normal {
+    position: relative;
+    width: 40px;
+    height: 40px;
+}
+
 .section-projects-board-about {
-    width: 800px;
-    padding: 60px;
     display: flex;
     flex-direction: column;
     gap: 20px;
     color: rgb(63, 63, 63);
-    font-size: 1.1rem;
+    font-size: 18px;
     letter-spacing: 2px;
 }
 
@@ -242,9 +246,68 @@ header {
     color: #56a9ff;
 }
 
+/* >>> section-projects-board-enlarge */
+
+.section-projects-board-frames-enlarge {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 75vw;
+    height: 44.117vw;
+    margin-left: -37.5vw;
+    margin-top: -22.05vw;
+    z-index: 9998;
+    border-radius: 1.1vw;
+    border: 0.3vw solid #56a9ff;
+    box-shadow: 1vw 1vw #a3cfff;
+}
+
+.section-projects-board-frames-enlarge .img-enlarge {
+    margin-top: 0;
+    margin-left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 0.9vw;
+}
+
+.section-projects-board-frames-left-button-enlarge,
+.section-projects-board-frames-right-button-enlarge {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    z-index: 9999;
+    width: 3.5vw;
+    height: 3.5vw;
+    background-size: 100% 100%;
+    border-radius: 50%;
+}
+
+.section-projects-board-frames-enlarge .img-enlarge,
+.section-projects-board-frames-left-button-enlarge,
+.section-projects-board-frames-right-button-enlarge {
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+.section-projects-board-frames-left-button-enlarge {
+    margin-left: -36vw;
+}
+
+.section-projects-board-frames-right-button-enlarge {
+    margin-left: 34vw;
+}
+
+.section-projects-board-about-enlarge {
+    display: none;
+}
+
 /* footer */
 
 .footer-social_web {
+    margin-top: 50px;
     height: 200px;
     display: flex;
     gap: 20px;
