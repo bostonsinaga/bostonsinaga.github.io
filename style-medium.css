@@ -1,6 +1,5 @@
 @media only screen and (min-width: 1051px) and (max-width: 1250px) {
 
-
 /* >>> header */
 
 header {
@@ -9,6 +8,7 @@ header {
 
 .header-about-description {
     margin: 0 90px 0 60px;
+    box-shadow: 9px 9px #a3cfff;
 }
 
 .header-figure {
@@ -56,7 +56,7 @@ header {
     height: 360px;
     border-radius: 10px;
     border: 3px solid #56a9ff;
-    box-shadow: 10px 10px #a3cfff;
+    box-shadow: 9px 9px #a3cfff;
 }
 
 .section-projects-board-frames .img-normal{
@@ -79,6 +79,4 @@ header {
 .section-projects-board-about {
     margin-top: 40px;
 }
-
-
 }

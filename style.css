@@ -55,7 +55,6 @@ header {
     color: rgb(63, 63, 63);
     border-radius: 10px;
     border: 3px solid #56a9ff;
-    box-shadow: 10px 10px #a3cfff;
 }
 
 .header-about-description a {
@@ -222,8 +221,7 @@ header {
 .section-projects-board-frames-left-button-normal,
 .section-projects-board-frames-right-button-normal {
     position: relative;
-    width: 40px;
-    height: 40px;
+    background-size: 100% 100%;
 }
 
 .section-projects-board-about {
