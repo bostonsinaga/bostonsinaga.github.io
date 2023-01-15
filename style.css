@@ -295,11 +295,11 @@ header {
 .section-projects-board-frames-enlarge .img-enlarge,
 .section-projects-board-frames-left-button-enlarge,
 .section-projects-board-frames-right-button-enlarge {
+    user-select: none;
     -webkit-user-select: none;
-    -khtml-user-select: none;
     -moz-user-select: none;
     -o-user-select: none;
-    user-select: none;
+    -khtml-user-select: none;
 }
 
 .section-projects-board-frames-left-button-enlarge {
