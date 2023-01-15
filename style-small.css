@@ -87,6 +87,10 @@
     height: 38px;
 }
 
+.section-projects-board-frames .img-normal {
+    margin-top: -76px;
+}
+
 /* very small */
 @media only screen and (max-width: 650px) {
     
@@ -116,7 +120,6 @@
     .section-projects-board-frames .img-normal{
         width: 85.1vw;
         height: 52.4vw;
-        margin-top: -72px;
     }
     
     .section-projects-board-frames-left-button-normal {
@@ -169,7 +172,6 @@
     .section-projects-board-frames .img-normal{
         width: 521px;
         height: 320px;
-        margin-top: -76px;
     }
     
     .section-projects-board-frames-left-button-normal {
