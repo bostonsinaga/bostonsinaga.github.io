@@ -24,7 +24,7 @@
 
 .header-figure-job_position_label {
     top: 18vw;
-    left: 59.7vw;
+    right: 6.4vw;
     font-size: 3vw;
     letter-spacing: 1vw;
 }
@@ -40,10 +40,12 @@
 @media only screen and (max-width: 750px) {
 
     .header-figure-contact_me_button {
-        padding: 1vw 2vw 1vw 2vw;
-        font-size: 2vw;
+        padding: 6px 12px 6px 12px;
+        font-size: 12px;
         border: 1.5px solid #56a9ff;
         border-radius: 8px;
+        min-width: 50px;
+        min-height: 10px;
     }
     
     .header-figure-feature_label {
