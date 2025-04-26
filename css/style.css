@@ -94,7 +94,7 @@ header {
 /** header-figure */
 
 .header-figure {
-    background-image: url("res/photo.png");
+    background-image: url("../res/photo.png");
     background-position: center;
     background-repeat: no-repeat;
 }
