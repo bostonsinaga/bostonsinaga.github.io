@@ -20,7 +20,7 @@
     z-index: 9997;
 }
 
-/* >>> header-about */
+/** header-about */
 
 header {
     display: grid;
@@ -68,50 +68,30 @@ header {
     color: #56a9ff;
 }
 
-.header-about-hire_me_button {
-    display: block;
-    width: 100px;
-    padding: 10px 5px 10px 10px;
-    font-weight: bold;
-    letter-spacing: 4px;
-    color: #56a9ff;
-    border: 2px solid #56a9ff;
-    border-radius: 10px;
-    text-decoration: none;
-    text-align: center;
-}
-
-.header-about-hire_me_button:hover,
-.header-about-hire_me_button:active {
-    background-color: #56a9ff;
-    color: white;
-    border: 2px solid white;
-    cursor: pointer;
-}
-
 .header-about-skills_labels {
     display: flex;
     gap: 24px;
     justify-content: center;
 }
 
-.header-about-skills_labels p {
+.header-about-skills_labels div {
     padding: 12px;
     border-radius: 9px;
     font-size: 18px;
+    font-weight: bold;
     letter-spacing: 3px;
-    color: white;    
+    color: white;
 }
 
-.header-about-skills_labels #skill-cpp {
-    background-color: black;
+.header-about-skills_labels div:nth-child(odd) {
+    background-color: rgb(63, 63, 63);
 }
 
-.header-about-skills_labels #skill-js {
+.header-about-skills_labels div:nth-child(even) {
     background-color: rgb(95, 95, 95);
 }
 
-/* >>> header-figure */
+/** header-figure */
 
 .header-figure {
     background-image: url("res/photo.png");
@@ -169,7 +149,7 @@ header {
     font-size: 36px;
 }
 
-/* >>> section-projects */
+/** section-projects */
 
 .section-projects-board {
     margin-top: 100px;
@@ -246,7 +226,7 @@ header {
     color: #56a9ff;
 }
 
-/* >>> section-projects-board-enlarge */
+/** section-projects-board-enlarge */
 
 .section-projects-board-frames-enlarge {
     position: fixed;
