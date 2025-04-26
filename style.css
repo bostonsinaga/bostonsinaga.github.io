@@ -130,20 +130,13 @@ header {
 }
 
 .header-figure-feature_label {
+    width: 100px;
     display: inline-block;
     position: absolute;
     background-color: black;
     padding: 16px;
     border-radius: 16px;
-}
-
-.header-figure-feature_label h1 {
     color: white;
-}
-
-.header-figure-feature_label p1 {
-    color: white;
-    font-size: 13px;
 }
 
 .header-figure-contact_me_button {
