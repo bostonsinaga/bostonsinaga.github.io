@@ -161,11 +161,11 @@ header {
 }
 
 .section-projects-board-frames-left-button {
-  background-image: url("res/left-arrow.png");
+  background-image: url("../res/left-arrow.png");
 }
 
 .section-projects-board-frames-right-button {
-  background-image: url("res/right-arrow.png");
+  background-image: url("../res/right-arrow.png");
 }
 
 .section-projects-board-frames-left-button:hover,
