@@ -119,29 +119,7 @@ header {
     color: white;
 }
 
-.header-figure-contact_me_button {
-    padding: 8px 16px 8px 16px;
-    display: inline-block;
-    position: absolute;
-    right: 1vw;
-    top: 1vw;
-    font-weight: bold;
-    color: #56a9ff;
-    background-color: white;
-    border: 2px solid #56a9ff;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
-.header-figure-contact_me_button:hover,
-.header-figure-contact_me_button:active {
-    background-color: #56a9ff;
-    color: white;
-    border: 2px solid white;
-    cursor: pointer;
-}
-
-/* section */
+/** section */
 
 .section-title {
     display: block;

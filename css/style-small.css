@@ -39,15 +39,6 @@
 
 @media only screen and (max-width: 750px) {
 
-    .header-figure-contact_me_button {
-        padding: 6px 12px 6px 12px;
-        font-size: 12px;
-        border: 1.5px solid #56a9ff;
-        border-radius: 8px;
-        min-width: 50px;
-        min-height: 10px;
-    }
-    
     .header-figure-feature_label {
         top: 43vw;
         right: 51vw;
