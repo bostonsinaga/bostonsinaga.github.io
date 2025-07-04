@@ -1,40 +1,25 @@
-@media only screen and (min-width: 1251px) {
-  
+@media only screen and (orientation: landscape) {
+
   /** header */
-  
-  header {
-    grid-template-columns: auto 600px;
+
+  .header-about {
+    width: 60vw;
+    height: 90vh;
   }
-  
+
   .header-about-description {
-    margin: 0 120px 0 90px;
-    box-shadow: 10px 10px #a3cfff;
+    width: 50%;
+    height: 70%;
   }
-  
-  .header-figure {
-    width: 600px;
-    height: 600px;
-    background-size: 100% 100%;
+
+  .header-man {
+    width: 40vw;
+    height: 40vw;
   }
-  
-  .header-figure-job_position_label {
-    top: 175px;
-    right: 72px;
-    font-size: 28px;
-    letter-spacing: 10px;
-  }
-  
-  .header-figure-job_position_label b {
-    font-size: 46px;
-  }
-  
-  .header-figure-job_position_label-engineer_word {
-    text-indent: 94px;
-  }
-  
-  .header-figure-feature_label {
-    top: 430px;
-    right: 510px;
+
+  .header-man-quotes {
+    top: 55%;
+    right: 10%;
   }
   
   /** section */
