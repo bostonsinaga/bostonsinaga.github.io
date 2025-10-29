@@ -14,10 +14,6 @@
   box-sizing: border-box;
 }
 
-.static {
-  display: flex;
-}
-
 .line {
   display: flex;
   gap: 10px;
