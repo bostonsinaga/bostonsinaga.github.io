@@ -1,0 +1,26 @@
+{
+  "boston-sinaga" : [
+    "Hello, World!",
+    "My Name is Boston Sinaga.",
+    "I am a GIS Full Stack Developer.",
+    "",
+    "Please type 'help' to see available commands."
+  ],
+  "about" : {
+    "skills" : [
+      "Languages: C++, JavaScript, Python",
+      "Frontend: Axmol, Flutter, Maplibre",
+      "Backend: GeoDjango, PostGIS"
+    ],
+    "social-links" : [
+      "Github: https://github.com/bostonsinaga",
+      "LinkedIn: https://www.linkedin.com/in/boston-sinaga-436455219"
+    ]
+  },
+  "projects" : {
+    "cli-menu" : "",
+    "indie-games" : "",
+    "kmz-cpm" : "",
+    "petakabel" : ""
+  }
+}
